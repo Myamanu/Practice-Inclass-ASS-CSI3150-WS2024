@@ -1,0 +1,75 @@
+/*Any external google fonts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+
+}
+
+video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+header{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: aqua;
+
+}
+header h1{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: mediumslateblue;
+    
+  
+    
+}
+header span{
+    font-size: 6rem;
+    font-weight: 800;
+    display: block;
+    color: fuchsia;
+}
+.description{
+    position: absolute;
+    bottom: 2%;
+    margin: 50%;
+    left: 10%;
+    right: 10%;
+    margin: auto;/* margin: 0 auto;-means top and bottom is 0 but figure out 
+    right and left--which is other way to center html items*/
+    background: black;
+    border-radius: 15px;
+    opacity: 0.5;
+    padding: 1.5rem;
+ }
+
+.description p{
+    color: rgb(248, 246, 242);
+    text-align: justify;
+    max-width: 87rem;
+    margin-inline: auto;
+    line-height: 1.5;
+    font-size: 1.15rem;
+
+}
+.copyright span{
+    font-size: 0.95rem;
+    color:red;
+}
+
+.copyright a{
+    color: rgb(132, 188, 48);
+    text-underline-offset: 1.8px;
+    font-size: 0.99rem;
+}
+
